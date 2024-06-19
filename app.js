@@ -21,10 +21,10 @@ let mensagemDeErro = "Erro! Preencha todos os campos.";
 alert(mensagemDeErro);
 
 // prompt para perguntar o nome do usuário e armazená-lo na variável nome
-let nome = prompt("Qual o seu nome?");
+nome = prompt("Qual é o seu nome?");
 
 // Peça ao usuário para digitar sua idade usando um prompt e armazene-a na variável idade.
-let idade = prompt("Qual a sua idade?");
+idade = prompt("Qual é a sua idade?");
 
 // Agora, caso a idade seja maior ou igual que 18, exiba um alerta com a mensagem "Pode tirar a habilitação!".
 if (idade >= 18){
